@@ -18,7 +18,7 @@ const BookingForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://consultation-backend.onrender.com/api/book', {
+      const response = await fetch('https://consultation-backend-akc7.onrender.com/api/book', ...)
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
